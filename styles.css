@@ -1,4 +1,86 @@
+/* General */
+
+/* * {
+  border: 1px solid red;
+} */
+
 html, body {
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
+    font-family: "Source Sans 3", sans-serif;
+    font-size: 13px;
+    width: 375px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+/* Header */
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.5);
+  padding: 1rem 0;
+}
+
+.oldgram-logo {
+  width: 125px;
+}
+
+.user-avatar {
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  margin-right: 1rem;
+}
+
+/* Profile */
+
+.profile-picture {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+}
+
+.profile-info {
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+}
+
+.profile-text {
+  margin-left: 7px;
+}
+
+.user-name {
+  margin-bottom: 0;
+  font-size: 13px;
+}
+
+.user-location {
+  margin-top: 0;
+}
+
+/* Post */
+
+.post-image {
+  width: 375px;
+}
+
+.icon-bar {
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+  margin-bottom: 12px;
+}
+
+.icon {
+  width: 26px;
+  margin-right: 1.25rem;
 }
